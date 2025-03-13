@@ -35,7 +35,11 @@ body {
     text-align: center;
   }
 
-  /* ------------ CARDS ------------ */
+  .btn-secondary {
+    background-color: rgb(80, 76, 76);
+  }
+
+  /* ------------ FEATURE ------------ */
 
   .feature-section {
     padding-top: 0.1em;
@@ -45,6 +49,22 @@ body {
   .featurette-divider {
     margin: 5rem; 
   }
+
+  .col-md-5 {
+    min-height: 500px;
+    justify-items: center;
+  }
+
+  .col-md-5 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .col-md-7 {
+    align-content: center;
+  }
+
 
   /* ------------ FOOTER ------------ */
 
