@@ -6,6 +6,7 @@ body {
   
 
 /* ------------ HERO ------------ */
+
 .carousel-inner > .carousel-item > img {
     height:100vh;
   }
@@ -27,7 +28,7 @@ body {
   /* ------------ CARDS ------------ */
 
   .card-section {
-    padding-top: 5em;
+    padding-top: 8em;
   }
   
   .marketing .col-lg-4 {
@@ -50,19 +51,10 @@ body {
     margin: 5rem; 
   }
 
-  .col-md-5 {
-    min-height: 500px;
-    justify-items: center;
-  }
-
   .col-md-5 img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-  }
-
-  .col-md-7 {
-    align-content: center;
   }
 
   /* ------------ SIGN-UP ------------ */
