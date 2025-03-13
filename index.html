@@ -8,31 +8,31 @@
     <link rel="stylesheet" href="styles/index.css">
   </head>
   <body>
-    <section class="first-section">
-      <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">Logo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#gallery">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <section class="hero-section">
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -45,6 +45,7 @@
             <div class="carousel-caption d-none d-md-block p-10">
               <h5>Welcome to the forest</h5>
               <p>Where trees grow, birds sing and stuff.</p>
+              <p><a class="btn btn-secondary" href="#">Learn more</a></p>
             </div>
           </div>
           <div class="carousel-item">
@@ -52,6 +53,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>Welcome to the mountain</h5>
               <p>Where hikers climb, clouds are near and stuff.</p>
+              <p><a class="btn btn-secondary" href="#">Learn more</a></p>
             </div>
           </div>
           <div class="carousel-item">
@@ -59,6 +61,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>Time to sleep</h5>
               <p>Sun is setting, bugs are buzzing and sheep are counted.</p>
+              <p><a class="btn btn-secondary" href="#">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -71,10 +74,55 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
-
-
     </section>
+    <section class="card-section" id="team">
+      <div class="container marketing">
+        <div class="row">
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+            <h2 class="fw-normal pt-2">Heading</h2>
+            <p class="p-2">Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          </div>
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+            <h2 class="fw-normal pt-2">Heading</h2>
+            <p class="p-2">Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          </div>
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+            <h2 class="fw-normal pt-2">Heading</h2>
+            <p class="p-2">And lastly this, the third column of representative placeholder content.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          </div>
+        </div>
+        </div>
+    </section>
+    <section class="feature-section">
+      <hr class="featurette-divider">
+      <div class="row featurette p-5">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1 pb-2">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
+          <p class="lead pb-5">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette p-5">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1 pb-2">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
+          <p class="lead pb-5">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+        </div>
+      </div>
+    </section>
+
+   
      
 
 
