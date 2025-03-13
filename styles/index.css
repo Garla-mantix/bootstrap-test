@@ -1,3 +1,16 @@
-.header {
-    max-height: 200px;
-}
+.carousel-inner > .carousel-item > img {
+    height:100vh;
+  }
+
+ .d-block {
+    object-fit: cover;
+  }
+
+  .carousel-caption {
+    padding-bottom: 5em;
+    text-shadow: black 2px 2px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 30px;
+  }
