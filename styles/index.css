@@ -65,6 +65,30 @@ body {
     align-content: center;
   }
 
+  /* ------------ SIGN-UP ------------ */
+
+  .modal {
+    background-color: rgb(112, 110, 107);
+  }
+ 
+  .modal-content {
+    color: rgb(175, 201, 211);
+    background-color: rgb(52, 56, 52);
+  }
+
+  .modal-header {
+    color: rgb(255, 254, 252);
+  }
+
+  .form-floating {
+    color: rgb(51, 48, 50);
+  }
+
+  .text-body-secondary {
+    text-decoration: none;  
+    color: white;
+}
+
 
   /* ------------ FOOTER ------------ */
 
@@ -76,3 +100,4 @@ body {
  .container a:hover {
     color: blue;
  }
+
